@@ -1,0 +1,96 @@
+body {display: grid;
+background-color: hsl(210, 46%, 95%);
+grid-template-columns: 1fr 1fr 1fr;
+grid-auto-columns: minmax(200px, 250px);
+column-gap: 2em;
+  row-gap: 2em;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+font-size: 13px;
+margin: 8% 18%;
+overflow: hidden;}
+
+h2 {margin-top: 5%;
+margin-bottom: 5%;
+position: relative;
+display: inline-block;}
+
+div {border-radius: 1%;
+    padding: 2rem;}
+
+.Daniel {background-color: hsl(263, 55%, 52%);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 2;
+    color: hsl(0, 0%, 81%);
+    position: relative;
+    }
+
+.Jonathan {background-color: hsl(217, 19%, 35%);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    color: hsl(0, 0%, 100%);}
+
+.Jeanette {background-color: hsl(0, 0%, 100%);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    color: hsl(217, 19%, 35%);}
+
+.Patrick {background-color: hsl(219, 29%, 14%);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    z-index: 2;
+    color: hsl(0, 0%, 100%);}
+
+.Kira {background-color: hsl(0, 0%, 100%);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: hsl(217, 19%, 35%);}
+
+.Empty1 {background-color: hsl(210, 46%, 95%);
+    z-index: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;}
+
+.Empty2 {background-color: hsl(210, 46%, 95%);
+    z-index: 1;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;}
+
+.White {color: hsl(0, 0%, 100%);}
+
+.Quotation {position: absolute;
+margin-top: -5%;
+margin-left: 55%;
+width: 140px;
+height: 140px;}
+
+.Graduate {opacity: 50%;}
+
+.paragraph {opacity: 70%;}
+
+.photo {border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    float: left;
+    margin-right: 15px;
+width: 28px;
+height: 28px;}
+
+.attribution {position: absolute;
+width: 50%;
+bottom: 0;
+text-align: center;}
